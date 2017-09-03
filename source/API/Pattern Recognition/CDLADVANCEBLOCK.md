@@ -14,6 +14,7 @@
 
 ## 图例
 ![](/assets/CDLADVANCEBLOCK_sh600000.png)
+上图中最后3根K线，即为CDLADVANCEBLOCK
 
 ## 使用案例
 

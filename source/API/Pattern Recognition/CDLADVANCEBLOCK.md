@@ -13,7 +13,7 @@
 4、第二根、第三根K线，或者仅第三根K线，红色实心阳线变小，上影线变长，而显示出无力上攻的信号。<br>
 
 ## 图例
-![](/assets/CDLADVANCEBLOCK sh600000.png)
+![](/assets/CDLADVANCEBLOCK_sh600000.png)
 
 ## 使用案例
 

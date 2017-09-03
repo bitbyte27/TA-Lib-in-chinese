@@ -11,8 +11,13 @@
 2、几乎没有下影线或上影线，即“光脚阳”和“光头阴”。<br>
 
 ## 图例
-![](/assets/CDLADVANCEBLOCK_sh600000.png)
+![](/assets/CDLBELTHOLD_sh600000_+100.png)
 <br>
+当形态为“光脚阳”时，100代表符合k线形态，上图中最后1根K线，即为CDLBELTHOLD
+<br>
+![](/assets/CDLBELTHOLD_sh600000_-100.png)
+<br>
+当形态为“光头阴”时，-100表示符合形态，上图中最后1根K线，即为CDLBELTHOLD
 
 ## 使用案例
 

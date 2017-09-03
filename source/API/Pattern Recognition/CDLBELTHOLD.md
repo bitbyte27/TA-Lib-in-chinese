@@ -18,7 +18,7 @@
 <br>
 ![](/assets/CDLBELTHOLD_sh600000_-100.png)
 <br>
-当形态为“光头阴”时，-100表示符合形态，上图中最后1根K线，即为CDLBELTHOLD
+当形态为“光头阴”时，-100表示符合形态，上图中最后3根K线，均为CDLBELTHOLD
 
 ## 使用案例
 

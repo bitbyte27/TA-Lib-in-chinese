@@ -11,5 +11,35 @@
 2、几乎没有下影线或上影线，即“光脚阳”和“光头阴”。<br>
 
 ## 图例
+![](/assets/CDLADVANCEBLOCK_sh600000.png)
+<br>
 
 ## 使用案例
+
+```python
+# 展示DataFrame中的数据
+df
+```
+
+
+```python
+# 赋值开、高、收、低价格，np.array格式。
+open_p = df['开盘价'].values
+high_p = df['最高价'].values
+low_p = df['最低价'].values
+close_p = df['收盘价'].values
+```
+
+```python
+# 展示open_p中的数据
+open_p
+```
+
+
+## 在A股市场效果
+遍历A股所有股票（包含退市），考察从上市至2017年1季度，所有出现
+
+```python
+# 展现统计结果
+df.groupby(pattern_name)[[str(i)+'天后涨跌幅' for i in 1, 3, 5, 10]].describe()
+```

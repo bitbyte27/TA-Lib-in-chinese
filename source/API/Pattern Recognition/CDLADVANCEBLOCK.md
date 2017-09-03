@@ -168,3 +168,89 @@ talib.CDLADVANCEBLOCK(open_p, high_p, low_p, close_p)
 
 ## 在A股市场效果
 遍历A股所有股票（包含退市），考察从上市至2017年1季度，所有出现
+
+```python
+# 展现统计结果
+df.groupby(pattern_name)[[str(i)+'天后涨跌幅' for i in 1, 3, 5, 10]].describe()
+```
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th>1天后涨跌幅</th>
+      <th>3天后涨跌幅</th>
+      <th>5天后涨跌幅</th>
+      <th>10天后涨跌幅</th>
+    </tr>
+    <tr>
+      <th>CDLADVANCEBLOCK</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="8" valign="top">-100</th>
+      <th>count</th>
+      <td>62784.000000</td>
+      <td>62784.000000</td>
+      <td>62784.000000</td>
+      <td>62784.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.000119</td>
+      <td>0.004523</td>
+      <td>0.006442</td>
+      <td>0.017072</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.030498</td>
+      <td>0.054688</td>
+      <td>0.073876</td>
+      <td>0.115896</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>-0.275208</td>
+      <td>-0.347059</td>
+      <td>-0.409694</td>
+      <td>-0.571264</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>-0.015102</td>
+      <td>-0.024431</td>
+      <td>-0.032573</td>
+      <td>-0.041165</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>-0.000794</td>
+      <td>0.001667</td>
+      <td>0.003052</td>
+      <td>0.010477</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>0.014002</td>
+      <td>0.029456</td>
+      <td>0.039598</td>
+      <td>0.066041</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>0.415842</td>
+      <td>0.729107</td>
+      <td>4.678090</td>
+      <td>8.708289</td>
+    </tr>
+  </tbody>
+</table>
+</div>
